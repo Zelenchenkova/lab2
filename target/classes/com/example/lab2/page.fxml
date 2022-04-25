@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="607.0" prefWidth="687.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab2.PageController">
+   <children>
+      <Label fx:id="question" layoutX="16.0" layoutY="19.0" lineSpacing="2.0" prefHeight="72.0" prefWidth="656.0" text="1. Проводяться дві лотереї: &quot;4 з 32&quot; і &quot;5 з 64&quot;. Повідомлення про результати який з лотерей несе більше інформації?">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="getResult" layoutX="14.0" layoutY="106.0" mnemonicParsing="false" onAction="#onResultClick" prefHeight="34.0" prefWidth="173.0" text="Результат">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label fx:id="result" layoutX="33.0" layoutY="154.0" text="result">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="next" layoutX="571.0" layoutY="22.0" mnemonicParsing="false" onAction="#onNextClick" prefHeight="27.0" prefWidth="102.0" text="Далі">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
